@@ -1,0 +1,141 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #864AF9 50%, #fdfdfd 50%);
+  min-height: 100%;
+  font-family: "Rubik Doodle Shadow";
+}
+
+h1 {
+  color: #000000;
+  padding: 10px;
+}
+
+.box {
+  max-width: 500px;
+  margin: 34px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #864AF9;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #864AF9;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  /*font-weight: 200;*/
+  color: #000000;
+  font-weight:bold;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #864AF9;
+  color: #fff;
+  font-size: 37px;
+  padding-bottom: 0px;
+  border-width: 0;
+}
+
+textarea,input[type="text"] {
+  font-family: "Rubik Doodle Shadow";
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  width: 313px;
+}
+
+textarea,input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #864AF9;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.footer-icon{
+  margin: 20px 10px;
+}
+
+textarea{
+  font-size: 15px;
+  height: 100px;
+}
+
+.Feedback_Button{
+  border-radius: 25%;
+  width: 100px;
+  font-family: "Rubik Doodle Shadow";
+  font-weight: bold;
+  font-size: 100%;
+  color: #000000;
+}
+/* For Nav Bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #864AF9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #864AF9;
+}
